@@ -1,0 +1,280 @@
+
+
+
+
+
+/* Default style  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700&display=swap');
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333}
+
+.default-button{
+    padding-top: 20px;
+}
+img{
+    max-width: 500px;
+    max-height: 600px;
+}
+/* Style for home */
+
+#home{
+    background-image: url("images/banner/banner3.png");
+    background-size: cover;
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+}
+.half-content{
+    width:50%;
+    margin:0;
+}
+
+.half-content img{
+    width: 80%;
+}
+
+.home-content-right{
+    margin-right: 100px;
+    width:30%;
+    float:right;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+
+.home-heading h1{
+    text-align:right;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 600;
+}
+
+.home-pra{
+    text-align:right;
+    color:#fff;
+    font-weight:300;
+}
+
+.color-text{
+    color: #005FAC;
+}
+.home-button{
+    float:right;
+}
+
+/* default button  */
+.button{
+    color: #005FAC;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bold
+
+}
+
+.home-content-right img{
+    padding: 0 5%;
+    width: 80%;
+}
+
+/* Style for plans Section */
+
+.plans-heading {
+    text-align: center;
+
+}
+
+.plans-heading h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.plans-content{
+    text-align:center;
+    width: 20%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.plans-content  img{
+    width: 80px;
+}
+
+.plans-wrapper{
+    padding: 10px 5%;
+}
+/* Style for plans Section */
+
+
+/* Style for failure  Section */
+
+#failures{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+}
+.failures-wrapper,
+.community-wrapper{
+    margin: 5%;
+}
+.failures-right{
+   margin: 100px 0
+}
+
+
+
+.failures-wrapper  h1,
+.community-wrapper  h1{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: bold;
+}
+
+
+.failures-wrapper  p,
+.community-wrapper  p{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.fa-check{
+    margin: 0 5px;
+    color: #16D887 ;
+}
+ul {
+    margin-top: 10px;
+}
+ul li{
+    list-style: none;
+    margin-top: 5px;
+    color: rgb(77, 76, 76);
+}
+
+#community{
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:right;
+}
+
+#app{
+    background: #f7f7f7;
+    padding: 50px 0;
+}
+
+#app h1{
+    margin: 30px 0;
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.app-image{
+    text-align: center;
+}
+.app-image img{
+    max-height: 550px;
+    max-width: 300px;
+}
+
+.app-right{
+    margin:50px 0 ;
+}
+
+.app-wrapper{
+    padding: 0 10%;
+}
+.half-content{
+    padding: 2%;
+}
+
+
+/* start extra section  */
+.extraSection{
+    margin: 100px 0px;
+}
+.extra{
+    margin: 100px;
+    border-radius: 20px;
+    padding: 50px 80px;
+    background-image:linear-gradient(to right,#0160ac ,rgba(255, 255, 255, 0)),url(images/watch.png);
+    background-position: end;
+    background-repeat:no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.extra h1{
+    color: white;
+}
+.extraSectionContent{
+    padding: 10px;
+}
+/* end extra section  */
+
+/* start footer section  */
+footer{
+    padding: 40px 100px;
+    background-color: black;
+}
+footer h1{
+    margin-top: 20px;
+    color: rgb(187, 185, 185);
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerul{
+    display: flex;
+    gap: 20px;
+}
+form input{
+    padding: 10px;
+    width: 300px;
+}
+/* end footer section  */
+
